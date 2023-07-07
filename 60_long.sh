@@ -78,3 +78,6 @@ dx upload long_ukb.csv --path $RAW_DIR/long_ukb.csv
 dx upload long_ukb.csv --path $SAVE_DIR/long_ukb.csv
 dx upload wide_ukb.csv --path $SAVE_DIR/wide_ukb.csv
 dx upload mortality_ukb.csv --path $SAVE_DIR/mortality_ukb.csv
+
+git clone https://github.com/hongzheduan/20230707
+dx upload /opt/notebooks/20230707/*.sh --path AnalyticFiles/20230707/program
